@@ -1,0 +1,10 @@
+[2-27-19] SAMONTE
+
+CREATE TABLE `db_student`.`tbl_employees` ( id_employees INT(11) NOT NULL , `fname` VARCHAR(30) NOT NULL , `lname` VARCHAR(50) NOT NULL ,
+ 			`title` VARCHAR(10) NOT NULL , `age` CHAR(3) NOT NULL , `salary` FLOAT(50) NOT NULL ,
+			 `datetime_created` TIMESTAMP NOT NULL , PRIMARY KEY (`id_employees`)) ENGINE = InnoDB;
+
+SELECT * FROM `tbl_employees` WHERE `fname` LIKE 'B%';
+SELECT * FROM `tbl_employees` WHERE `fname` like 's%';
+SELECT * FROM `tbl_employees` WHERE `fname` like 's%' order by `fname` ASC;
+SELECT * FROM `tbl_employees` WHERE `fname` like 's%' order by `fname` DSC;
