@@ -1,0 +1,15 @@
+[2-28-19] SAMONTE
+
+**UPDATE
+1) UPDATE `tbl_employees` SET `lname` = 'Williams' WHERE `id_emp` = '1';
+2) UPDATE `tbl_employees` SET `age` = '46' WHERE `fname` = 'Dirk';
+3) UPDATE `tbl_employees SET `title` = 'Admin Asstnt' WHERE `title` = 'Secretary';\
+4) 
+5) 
+6) UPDATE `tbl_employees` SET `title` = 'Prog III' WHERE `title` = 'Prog II';
+7) UPDATE `tbl_employees` SET `title` = 'Prog II' WHERE `title` = 'Programmer';
+
+**DELETE
+1) DELETE FROM `tbl_employees` WHERE `id_emp` = '1';
+2) DELETE FROM `tbl_employees` WHERE `salary` <= 70000;
+
