@@ -3,7 +3,7 @@
 **UPDATE
 1) UPDATE `tbl_employees` SET `lname` = 'Williams' WHERE `id_emp` = '1';
 2) UPDATE `tbl_employees` SET `age` = '46' WHERE `fname` = 'Dirk';
-3) UPDATE `tbl_employees SET `title` = 'Admin Asstnt' WHERE `title` = 'Secretary';\
+3) UPDATE `tbl_employees SET `title` = 'Admin Asstnt' WHERE `title` = 'Secretary';
 4) UPDATE `tbl_employees` SET `salary` = salary+3500 WHERE salary <=30000;
 5) UPDATE `tbl_employees` SET `salary` = salary+4500 WHERE salary <=33500;
 6) UPDATE `tbl_employees` SET `title` = 'Prog III' WHERE `title` = 'Prog II';
